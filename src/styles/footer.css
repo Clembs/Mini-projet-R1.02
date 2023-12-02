@@ -1,0 +1,29 @@
+footer {
+  background-color: var(--gray);
+  color: white;
+  text-align: center;
+  padding: 2rem;
+}
+
+footer > div {
+  text-align: left;
+}
+
+/* Left and right parts of the footer */
+footer > div > div:last-child {
+  width: 250px;
+}
+
+footer > div {
+  display: flex;
+  justify-content: space-between;
+}
+
+footer ul {
+  list-style: none;
+}
+
+/* Link to CNIL and GDPR */
+footer > a {
+  text-align: center;
+}
