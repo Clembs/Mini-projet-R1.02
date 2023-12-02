@@ -4,28 +4,43 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="./src/styles/styles.css" />
+    <link rel="stylesheet" href="./src/styles/base.css" />
   </head>
   <body>
-    <header>
-      <div>
-        <img
-          src="./src/assets/logo-IUT-UT3-carre2019.jpg"
-          alt="Logo de l'UT3"
-        />
-        <img src="./src/assets/logo-UT3_UFTMP.jpg" alt="" />
-      </div>
-
-      <img
-        src="./src/assets/Informatique-logo-TOULOUSE.png"
-        alt="Logo du BUT Informatique de Toulouse"
-      />
-    </header>
     <nav>
-      <a href="#"> Acceuil </a>
-      <a href="#"> Présentation du BUT </a>
-      <a href="#"> Compétences </a>
-      <a href="#"> Contact </a>
+      <header>
+        <div>
+          <img
+            src="./src/assets/logo-IUT-UT3-carre2019.jpg"
+            alt="Logo de l'IUT Paul Sabatier"
+            height="64"
+          />
+          <img
+            src="./src/assets/logo-UT3_UFTMP.jpg"
+            alt="Logo de l'Université Paul Sabatier"
+            height="64"
+          />
+        </div>
+
+        <img
+          src="./src/assets/Informatique-logo-TOULOUSE.png"
+          alt="Logo du BUT Informatique à l'IUT Paul Sabatier"
+          height="64"
+        />
+      </header>
+
+      <ul role="navigation">
+        <li>
+          <a href="/"> Accueil </a>
+        </li>
+        <li>
+          <a href="/presentation"> Présentation du BUT </a>
+        </li>
+        <li role="menu">
+          <a href="/competences"> Compétences </a>
+        </li>
+        <a href="#"> Contact </a>
+      </ul>
     </nav>
   </body>
 </html>
