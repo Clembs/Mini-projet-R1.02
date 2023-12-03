@@ -4,86 +4,87 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="./src/styles/base.css" />
-    <link rel="stylesheet" href="./src/styles/contact.css" />
-    <link rel="stylesheet" href="./src/styles/footer.css" />
+    <link rel="stylesheet" href="/public/styles/base.css" />
+    <link rel="stylesheet" href="/public/styles/contact.css" />
   </head>
   <body>
     <nav>
       <header>
         <div>
           <img
-            src="./src/assets/logo-IUT-UT3-carre2019.jpg"
+            src="./public/assets/logo-IUT-UT3-carre2019.jpg"
             alt="Logo de l'IUT Paul Sabatier"
             height="64"
           />
           <img
-            src="./src/assets/logo-UT3_UFTMP.jpg"
+            src="./public/assets/logo-UT3_UFTMP.jpg"
             alt="Logo de l'Université Paul Sabatier"
             height="64"
           />
         </div>
 
         <img
-          src="./src/assets/Informatique-logo-TOULOUSE.png"
+          src="./public/assets/Informatique-logo-TOULOUSE.png"
           alt="Logo du BUT Informatique à l'IUT Paul Sabatier"
           height="64"
         />
       </header>
 
-      <ul role="navigation">
-        <li>
-          <a href="/"> Accueil </a>
-        </li>
-        <li>
-          <a href="/presentation">
-            <span class="desktop-text"> Présentation du </span>
-            BUT
-          </a>
-        </li>
-        <li role="menu">
-          <input type="checkbox" name="navbar" id="competences-checkbox" />
+      <div id="navigation-wrapper">
+        <ul role="navigation">
+          <li>
+            <a href="/"> Accueil </a>
+          </li>
+          <li>
+            <a href="/presentation">
+              <span class="desktop-text"> Présentation du </span>
+              BUT
+            </a>
+          </li>
+          <li role="menu">
+            <input type="checkbox" name="navbar" id="competences-checkbox" />
 
-          <label for="competences-checkbox">
-            Compétences
-            <div aria-hidden class="icon">▶</div>
-          </label>
+            <label for="competences-checkbox">
+              Compétences
+              <div aria-hidden class="icon">▶</div>
+            </label>
 
-          <ul>
-            <li>
-              <a href="/competences#dev">
-                Réaliser un développement d'application
-              </a>
-            </li>
-            <li>
-              <a href="/competences#opti">
-                Optimiser des applications informatiques
-              </a>
-            </li>
-            <li>
-              <a href="/competences#admin">
-                Administrer des systèmes informatiques communicants complexes
-              </a>
-            </li>
-            <li>
-              <a href="/competences#donnees">
-                Gérer des données de l'information
-              </a>
-            </li>
-            <li>
-              <a href="/competences#projet"> Conduire un projet </a>
-            </li>
-            <li>
-              <a href="/competences#equipe">
-                Travailler dans une équipe informatique
-              </a>
-            </li>
-          </ul>
-        </li>
-        <li>
-          <a href="/contact.html"> Contact </a>
-        </li>
-      </ul>
+            <ul>
+              <li>
+                <a href="/competences#dev">
+                  Réaliser un développement d'application
+                </a>
+              </li>
+              <li>
+                <a href="/competences#opti">
+                  Optimiser des applications informatiques
+                </a>
+              </li>
+              <li>
+                <a href="/competences#admin">
+                  Administrer des systèmes informatiques communicants complexes
+                </a>
+              </li>
+              <li>
+                <a href="/competences#donnees">
+                  Gérer des données de l'information
+                </a>
+              </li>
+              <li>
+                <a href="/competences#projet"> Conduire un projet </a>
+              </li>
+              <li>
+                <a href="/competences#equipe">
+                  Travailler dans une équipe informatique
+                </a>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <a href="/contact"> Contact </a>
+          </li>
+        </ul>
+      </div>
     </nav>
 
     <main>
@@ -161,43 +162,44 @@
       </section>
     </main>
 
-    <footer style="margin-top: 24rem">
-      <div>
-        <div class="sitemap">
-          <h3>Plan du site</h3>
-          <ul>
-            <li>
-              <a href="/">Accueil</a>
-            </li>
-            <li>
-              <a href="/presentation">Présentation du BUT</a>
-            </li>
-            <li>
-              <a href="/competences">Compétences</a>
-            </li>
-            <li>
-              <a href="/contact">Contact</a>
-            </li>
-          </ul>
+    <footer>
+      <div id="footer-wrapper">
+        <div>
+          <div class="sitemap">
+            <h3>Plan du site</h3>
+            <ul>
+              <li>
+                <a href="/">Accueil</a>
+              </li>
+              <li>
+                <a href="/presentation">Présentation du BUT</a>
+              </li>
+              <li>
+                <a href="/competences">Compétences</a>
+              </li>
+              <li>
+                <a href="/contact">Contact</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="company-details">
+            <h3>Informations</h3>
+            <ul>
+              <li>Equipe [object, Object]</li>
+              <li>Clément VOISIN</li>
+              <li>Gérald LEBAN</li>
+            </ul>
+          </div>
         </div>
 
-        <div class="company-details">
-          <h3>Informations</h3>
-          <ul>
-            <!-- TODO: Remplacer par le nom de l'équipe -->
-            <li>Nom de l'équipe: [object, Object]</li>
-            <li>Clément VOISIN</li>
-            <li>Gérald LEBAN</li>
-          </ul>
-        </div>
+        <a
+          href="https://www.cnil.fr/fr/reglement-europeen-protection-donnees"
+          target="_blank"
+        >
+          CNIL - RGPD
+        </a>
       </div>
-
-      <a
-        href="https://www.cnil.fr/fr/reglement-europeen-protection-donnees"
-        target="_blank"
-      >
-        CNIL - RGPD
-      </a>
     </footer>
   </body>
 </html>

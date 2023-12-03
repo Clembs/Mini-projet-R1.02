@@ -3,14 +3,14 @@ form {
   grid-template-columns: 1fr 1fr;
   gap: 2rem;
 
-  /** Left column */
+  /* Left column */
   & > div:first-child {
     display: flex;
     flex-direction: column;
     gap: 1rem;
   }
 
-  /** Submit button */
+  /* Submit button */
   & button[type="submit"] {
     padding: 0.5rem 1rem;
     border: 1px solid var(--color-secondary);
