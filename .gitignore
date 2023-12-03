@@ -1,3 +1,4 @@
 node_modules
 public/styles
-public/*.html
+public/**/*.html
+public/**/*.css

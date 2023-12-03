@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "layout": "node ./scripts/gen-layout.js",
-    "competences": "node ./src/competences/gen-competences.js",
+    "competences": "node ./src/competences/gen-competences.js && node ./scripts/gen-layout.js",
     "scss": "sass --watch src/styles:public/styles"
   },
   "keywords": [],

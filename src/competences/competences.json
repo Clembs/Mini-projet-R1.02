@@ -1,0 +1,104 @@
+[
+  {
+    "code": "dev1",
+    "nom": "Réaliser un développement d'application",
+    "apprentissages": [
+      "Développer des applications informatiques simples",
+      "Partir des exigences et aller jusqu'à une application complète",
+      "Adapter des applications sur un ensemble de supports (embarqué, web, mobile, IoT…)"
+    ],
+    "resources": ["R1.01", "R1.02", "R1.10"],
+    "coeffs": [42, 12, 6],
+    "sae": {
+      "code": "S1.01",
+      "nom": "Implémentation d'un besoin client",
+      "description": "En partant d'un besoin exprimé par un client, l'objectif est de réaliser une application qui réponde à ce besoin."
+    },
+    "couleurPrincipale": "#f3e2dd"
+  },
+  {
+    "code": "dev2",
+    "nom": "Optimiser des applications",
+    "apprentissages": [
+      "Appréhender et construire des algorithmes",
+      "Sélectionner les algorithmes adéquats pour répondre à un problème donné",
+      "Analyser et optimiser des applications"
+    ],
+    "resources": ["R1.01", "R1.03", "R1.04", "R1.06", "R1.07"],
+    "coeffs": [24, 3, 3, 15, 15],
+    "sae": {
+      "code": "S1.02",
+      "nom": "Comparaison d'approches algorithmiques",
+      "description": "En partant d'un besoin exprimé par un client, il faut réaliser une implémentation, comparer plusieurs approches pour la résolution d'un problème et effectuer des mesures de performance simples."
+    },
+    "couleurPrincipale": "#ffdbd2"
+  },
+  {
+    "code": "sys",
+    "nom": "Administrer des systèmes informatiques communicants complexes",
+    "apprentissages": [
+      "Installer et configurer un poste de travail",
+      "Déployer des services dans une architecture réseau",
+      "Faire évoluer et maintenir un système informatique communicant en conditions opérationnelles"
+    ],
+    "resources": ["R1.03", "R1.04", "R1.10", "R1.11"],
+    "coeffs": [21, 21, 12, 6],
+    "sae": {
+      "code": "S1.03",
+      "nom": "Installation d'un poste pour le développement",
+      "description": "En partant d'un besoin exprimé par un client, il faut identifier les outils les plus adaptés aux besoins, les installer, les configurer et créer une notice d'utilisation."
+    },
+    "couleurPrincipale": "#fff3cf"
+  },
+  {
+    "code": "bdd",
+    "nom": "Gérer des données de l'information",
+    "apprentissages": [
+      "Concevoir et mettre en place une base de données à partir d'un cahier des charges client",
+      "Optimiser une base de données, interagir avec une application et mettre en œuvre la sécurité",
+      "Administrer une base de données, concevoir et réaliser des systèmes d'informations décisionnels"
+    ],
+    "resources": ["R1.05", "R1.06", "R1.09"],
+    "coeffs": [36, 18, 6],
+    "sae": {
+      "code": "S1.04",
+      "nom": "Création d'une base de données",
+      "description": "En partant d'un besoin exprimé par un client, Il faut étudier puis réaliser une base de données portant sur une partie du système d'information à développer."
+    },
+    "couleurPrincipale": "#e4ebd3"
+  },
+  {
+    "code": "prj",
+    "nom": "Conduire un projet",
+    "apprentissages": [
+      "Identifier les besoins métiers des clients et des utilisateurs",
+      "Appliquer une démarche de suivi de projet en fonction des besoins métiers des clients et des utilisateurs",
+      "Participer à la conception et à la mise en oeuvre d'un projet système d'information"
+    ],
+    "resources": ["R1.02", "R1.08", "R1.11"],
+    "coeffs": [18, 27, 15],
+    "sae": {
+      "code": "S1.05",
+      "nom": "Recueil de besoins",
+      "description": "Dans un contexte professionnel, un client demande de formaliser ses attentes liées à un projet."
+    },
+    "couleurPrincipale": "#d5dbef"
+  },
+  {
+    "code": "equ",
+    "nom": "Collaborer au sein d’une équipe informatique",
+    "apprentissages": [
+      "Identifier ses aptitudes pour travailler dans une équipe",
+      "Situer son rôle et ses missions au sein d’une équipe informatique",
+      "Manager une équipe informatique"
+    ],
+    "resources": ["R1.02", "R1.08", "R1.09", "R1.10", "R1.11", "R1.12"],
+    "coeffs": [5, 11, 11, 11, 11, 11],
+    "sae": {
+      "code": "S1.06",
+      "nom": "Découverte de l'environnement économique et écologique",
+      "description": "En se plaçant dans un contexte prédéterminé, il faut effectuer une présentation numérique du positionnement économique ou écologique de l'entreprise ou d'un ensemble d'entreprises, en utilisant des informations et outils pertinents."
+    },
+    "couleurPrincipale": "#e8d9d5"
+  }
+]

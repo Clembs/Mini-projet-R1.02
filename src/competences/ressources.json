@@ -1,0 +1,62 @@
+[
+  {
+    "code": "R1.01",
+    "nom": "Initiation au développement",
+    "description": "L'objectif de cette ressource est l'initiation au développement. Cette ressource est nécessaire pour la réalisation d'un développement d'application et l'optimisation des applications informatiques"
+  },
+  {
+    "code": "R1.02",
+    "nom": "Développement d’interfaces web",
+    "description": "L'objectif de cette ressource est d'apprendre les techniques de création de documents numériques sur le web en réponse à des besoins client. Cette ressource est une base pour réaliser un développement d'application tout en appréhendant les besoins du client et de l'utilisateur"
+  },
+  {
+    "code": "R1.03",
+    "nom": "Introduction à l’architecture des ordinateurs",
+    "description": "L'objectif de cette ressource est de découvrir la structure et les composants d'un ordinateur. Cette ressource permet de découvrir les différents composants matériels et logiciels internes qui constituent un ordinateur, de manière à appréhender le fonctionnement, mais aussi les limites de leur utilisation"
+  },
+  {
+    "code": "R1.04",
+    "nom": "Introduction aux systèmes d’exploitation et à leur fonctionnement",
+    "description": "L'objectif de cette ressource est de comprendre le rôle, les composants et le fonctionnement d'un système d'exploitation. Cette ressource permet de découvrir les principes d'un système d'exploitation, leur mode de fonctionnement et les différents types existants. Elle contribue à comprendre comment installer un système sur une machine et à le personnaliser en développant des fonctions simples facilitant la configuration et le paramétrage"
+  },
+  {
+    "code": "R1.05",
+    "nom": "Introduction aux bases de données et SQL",
+    "description": "L'objectif de cette ressource est l'initiation aux bases de données. Cette ressource permet une première sensibilisation sur l'importance d'une base de données dans le système d'information de l'entreprise et montre la complexité de la création d'une base répondant aux besoins et qui soit de bonne qualité."
+  },
+  {
+    "code": "R1.06",
+    "nom": "Mathématiques discrètes",
+    "description": "L'objectif de cette ressource est de mettre en place les outils mathématiques nécessaires aux bases de l'informatique. Elle aide à formaliser et mettre en œuvre des outils mathématiques pour l'informatique. Elle accompagne la mise en place des bases de données en explicitant les structures fondamentales de ces dernières"
+  },
+  {
+    "code": "R1.07",
+    "nom": "Outils mathématiques fondamentaux",
+    "description": "L'objectif de cette ressource est la remise à niveau des notions mathématiques de base. Cette ressource donne les outils mathématiques fondamentaux nécessaires à la programmation informatique."
+  },
+  {
+    "code": "R1.08",
+    "nom": "Introduction à la gestion des organisations",
+    "description": "L'objectif de cette ressource est de découvrir l'organisation et la transformation numérique. D'une part, la découverte de l'organisation permet une compréhension des enjeux et les besoins sous-jacents des projets internes et externes animant les acteurs qui la composent. Les défis organisationnels du XXIe siècle, comme la transformation numérique des organisations, amènent également à se questionner sur les évolutions informatiques et managériales dans le but de mieux appréhender l'écosystème numérique et le futur contexte professionnel."
+  },
+  {
+    "code": "R1.09",
+    "nom": "Introduction à l’économie durable et numérique",
+    "description": "L'objectif de cette ressource est de découvrir l'économie durable et responsable. L'essor des données de l'information dans la société actuelle amène des nouveaux défis économiques. L'étude de la donnée dans son contexte permet une meilleure visualisation des données de l'information manipulées au quotidien par l'informaticien. Les fondements de l'économie représentent un incontournable pour appréhender l'écosystème numérique."
+  },
+  {
+    "code": "R1.10",
+    "nom": "Anglais",
+    "description": "L'objectif de cette ressource est d'introduire l'anglais de spécialité informatique et de développer sa culture générale et scientifique. Cette ressource permet l'acquisition du vocabulaire de base de l'informatique."
+  },
+  {
+    "code": "R1.11",
+    "nom": "Bases de la communication",
+    "description": "L'objectif de cette ressource est d'aborder les fondamentaux de la communication. Cette ressource permet une approche sur l'importance de bien communiquer face à un client, de formuler ses questions de manière claire et pertinente pour recueillir les besoins du client. Elle permet de développer l'esprit critique et la capacité d'analyse nécessaires à la collecte d'informations. Enfin, la ressource permet la mise en place et l'appropriation d'outils de communication pour restituer les informations (sous formes diverses du papier au web) à destination d'un client ou d'une équipe."
+  },
+  {
+    "code": "R1.12",
+    "nom": "Projet professionnel et personnel",
+    "description": "L'objectif de cette ressource est d'identifier le savoir-être et le savoir-faire. Cette ressource permet de se familiariser avec les éléments constitutifs du B.U.T. informatique (AC), de mieux cerner sa connaissance de soi et d'apprendre à définir ses compétences au travers de ses expériences."
+  }
+]

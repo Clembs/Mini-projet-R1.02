@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>{competence.nom} - IUT Paul Sabatier</title>
+    <link rel="stylesheet" href="/public/styles/competence.css" />
+    <!-- head -->
+
+    <style>
+      :root {
+        --color-competence-primary: {competence.couleur};
+        --color-competence-secondary: {competence.couleurSecondaire};
+      }
+    </style>
+  </head>
+  <body>
+    <!-- navbar -->
+
+    <main>
+      <h1>Compétence {i} - {competence.nom}</h1>
+
+      <article>
+        <h2>Apprentissages critiques du niveau 1</h2>
+
+        <!-- <img
+          src="{competence.image}"
+          alt="Représentation de la compétence {competence.nom}"
+        /> -->
+
+        <ul>
+          {competence.apprentissages}
+        </ul>
+      </article>
+
+      <hr />
+
+      <article>
+        <h2>Evaluation</h2>
+
+        <table>
+          <thead>
+            <tr>
+              <th>Ressource</th>
+              {competence.resources}
+            </tr>
+          </thead>
+
+          <tbody>
+            <tr>
+              <td>Coefficient</td>
+              {competence.coeffs}
+            </tr>
+          </tbody>
+        </table>
+      </article>
+
+      <hr />
+
+      <article>
+        <h2>SAE {competence.sae.code} - {competence.sae.nom}</h2>
+
+        <p>{competence.sae.description}</p>
+      </article>
+
+      <hr />
+
+      <article>
+        <h2>Ressources</h2>
+
+        {competence.ressourcesDetail}
+      </article>
+
+      <a id="jump-top" href="#">↑ Revenir en haut de page</a>
+    </main>
+
+    <!-- footer -->
+  </body>
+</html>
