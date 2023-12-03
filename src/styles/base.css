@@ -39,30 +39,98 @@ img {
 }
 
 nav {
-  padding: 1rem 2rem;
+  /* margin: 1rem 2rem; */
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0.5rem 0;
 
   header {
     display: flex;
     justify-content: space-between;
-    gap: 16px;
+    gap: 1rem;
+    margin-bottom: 0.5rem;
+    padding: 0 0.5rem;
   }
 
   ul[role="navigation"] {
     display: flex;
     background-color: var(--color-secondary);
     color: var(--color-on-secondary);
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    align-items: center;
 
-    li {
-      display: inline-flex;
-      justify-content: center;
-      align-items: center;
-      padding: 1.5rem 0;
+    & > li {
       width: 100%;
-      text-decoration: none;
+      height: 100%;
+      margin: 0;
 
-      a {
+      & > a {
+        display: block;
+        padding: 1rem 0.5rem;
+        width: 100%;
+        text-align: center;
         text-decoration: none;
+        padding-bottom: 11px;
+        border-bottom: solid 5px transparent;
+
+        &:hover,
+        &:focus-within {
+          border-bottom: solid 5px var(--color-primary);
+          background-color: var(--color-tertiary);
+        }
+      }
+
+      &[role="menu"] {
+        position: relative;
+
+        & > ul {
+          display: none;
+          flex-direction: column;
+
+          width: 100%;
+          padding: 0;
+          position: absolute;
+
+          z-index: 1;
+          list-style: none;
+
+          background-color: var(--color-secondary);
+          color: var(--color-on-secondary);
+
+          a {
+            display: block;
+            text-decoration: none;
+            padding: 0.75rem;
+            border-left: 5px solid transparent;
+
+            &:hover {
+              border-left: 5px solid var(--color-primary);
+              background-color: var(--color-tertiary);
+            }
+          }
+        }
+
+        &:hover,
+        &:focus-within {
+          & > ul {
+            display: flex;
+          }
+        }
       }
     }
   }
+
+  /* [role="navigation"] > li {
+  } */
+
+  /* [role="navigation"] > li > a {
+  } */
+
+  /* li[role="menu"] > ul {
+  }
+
+  li[role="menu"]:hover > ul {
+  } */
 }
