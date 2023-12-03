@@ -1,0 +1,67 @@
+main {
+  header,
+  article:not(#competences) {
+    display: flex;
+    gap: 2rem;
+    justify-content: space-between;
+    margin: 2rem 0;
+  }
+
+  #competences {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    margin: 2rem 0;
+
+    section {
+      display: flex;
+      gap: 2rem;
+      border: 1px solid black;
+      padding: 1rem;
+
+      border-left: 5px solid var(--color);
+    }
+  }
+
+  .text {
+    flex: 1;
+  }
+
+  a:has(img) {
+    overflow: hidden;
+    display: grid;
+    height: 100%;
+
+    & > img {
+      transition: transform 250ms ease-in-out;
+
+      &:hover {
+        transform: scale(1.125);
+      }
+    }
+  }
+
+  img {
+    object-fit: cover;
+    object-position: 40%;
+  }
+
+  @media screen and (max-width: 600px) {
+    header,
+    article:not(#competences) {
+      flex-direction: column;
+      align-items: center;
+    }
+
+    #competences {
+      section {
+        flex-direction: column;
+
+        & > img {
+          width: 100%;
+          height: auto;
+        }
+      }
+    }
+  }
+}
