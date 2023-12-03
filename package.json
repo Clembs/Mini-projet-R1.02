@@ -4,12 +4,16 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "layout": "node ./scripts/gen-layout.js",
+    "competences": "node ./src/competences/gen-competences.js",
     "scss": "sass --watch src/styles:public/styles"
   },
   "keywords": [],
+  "type": "module",
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@types/node": "^20.10.3",
     "sass": "^1.69.5"
   }
 }
