@@ -1,0 +1,53 @@
+section#validation {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+
+@media (max-width: 768px) {
+  section#validation {
+    grid-template-columns: 1fr;
+  }
+}
+
+.callout {
+  background-color: var(--color-tertiary);
+  color: var(--color-on-tertiary);
+  padding: 1rem;
+  border-radius: 0.5rem;
+  height: fit-content;
+
+  border-left: solid 5px var(--color-primary);
+
+  & > h3 {
+    margin-top: 0;
+  }
+
+  & > p {
+    margin-bottom: 0;
+  }
+}
+
+table#coeff-s1 {
+  & > thead {
+    background-color: var(--color-tertiary);
+    color: var(--color-on-tertiary);
+  }
+
+  & > tbody {
+    & > tr {
+      & > td:nth-child(even) {
+        background-color: lightgray;
+        color: var(--color-tertiary);
+        text-align: center;
+      }
+
+      /** td nth-child(odd) but not the first one */
+      & > td:not(:first-child):nth-child(odd) {
+        background-color: lightblue;
+        color: black;
+        text-align: center;
+      }
+    }
+  }
+}
