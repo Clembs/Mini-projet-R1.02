@@ -3,27 +3,36 @@ footer {
   color: var(--color-on-secondary);
   text-align: center;
   padding: 2rem;
+
+  #footer-wrapper {
+    max-width: 1000px;
+    margin: 0 auto;
+
+    & > div {
+      text-align: left;
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+    }
+
+    & > div > div:last-child {
+      width: 250px;
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    & > a {
+      text-align: center;
+    }
+  }
 }
 
-footer > div {
-  text-align: left;
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  gap: 0.5rem;
-}
-
-/* Left and right parts of the footer */
-footer > div > div:last-child {
-  width: 250px;
-}
-
-footer ul {
-  list-style: none;
-  padding: 0;
-}
-
-/* Link to CNIL and GDPR */
-footer > a {
-  text-align: center;
+@media (max-width: 600px) {
+  footer {
+    padding-bottom: 5rem;
+  }
 }
