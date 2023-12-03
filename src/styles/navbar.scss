@@ -119,6 +119,12 @@ nav {
   }
 }
 
+main {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
 @media (max-width: 600px) {
   nav {
     #navigation-wrapper {
