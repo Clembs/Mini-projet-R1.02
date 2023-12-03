@@ -2,3 +2,4 @@ node_modules
 public/styles
 public/**/*.html
 public/**/*.css
+src/templates/competences-*.html

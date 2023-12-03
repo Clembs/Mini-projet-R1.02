@@ -81,7 +81,7 @@ competences.forEach((competence, i) => {
     );
 
   writeFileSync(
-    `./src/templates/competences/${competence.code}.html`,
+    `./src/templates/competences-${competence.code}.html`,
     html,
     "utf8"
   );
